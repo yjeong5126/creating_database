@@ -1,0 +1,36 @@
+Q1) Select all orders for the 3rd quarter of 2004. 
+   (Display the columns for OrderNumber, OrderDate, CustomerName, and Status.)  
+
+Q2) Select the orders from France, Swenden, or UK in 2005. 
+   (Display the columns for OrderNumber, OrderDate, CustomerName, Country, Sales.) 
+
+Q3) Select the average MSRP for all products with the name "avg_price".
+
+Q4) Select the average MSRP for each ProductLine with the descending order by the average price.
+
+Q5) Select the productlines the average prices of which are greater than 100.
+
+Q6) Select all the products with the number of orders for each product.
+
+Q7) Select customers and their phone numbers who are located in Spain or USA.
+
+Q8) Select the top customers for each country with their total purchasing values.
+
+Q9) For each product, compare its MSRP and its actual price. 
+    (Use the weighted average price for the actual price. The weight for each order is the ratio of the quantity compared to the total quantity of the product.)
+
+Q10) Calculate the average sales per customer in 2004.
+
+Q11) Create a user-defined function to find the average sales per customer for the selected year and month.
+     Select the average sales per customer for October in 2004 using the user-defined function. 
+
+Q12) Select the CustomerNames and the contact names who purchased more than the average sales in 2004.
+
+Q13) Create a Stored Procedure to call the list of customers who purchased more than the selected values in the selected year.
+     Select the customers who purchased more than $100,000 in 2004 using the stored-procedure.
+
+Q14) Select the sales for each quarter in 2004 for each country.
+    (Create columns for sales for each quarter using CASE statement).
+
+Q15) Create a trigger to insert a backup record to the backup table after the original table is updated.
+    (Create a backup table first and then create the trigger. To check if the trigger works well, update the MSRP = 200 for ProductID = 4)
